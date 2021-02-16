@@ -11,10 +11,27 @@
     background-color: rgb(37, 184, 32);
 }
 .navbar{
-    height: 8rem;
+    overflow: hidden;
 }
 
 #mi-carrusel{
     width: 100%;
     clear: both;
+}
+
+#imagen{
+    width: 200px;
+    height: 200px;
+}
+
+.media{
+    width: 100%;
+}
+
+.media-body{
+    width: 50%;
+}
+
+.progress-bar{
+    border-radius: 0;
 }
