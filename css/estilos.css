@@ -1,0 +1,20 @@
+.fondo1{
+    background-color: rgb(26, 131, 22);
+}
+
+.fondo2{
+    background-color: rgb(32, 160, 28);
+}
+
+.fondo3{
+    height: 100%;
+    background-color: rgb(37, 184, 32);
+}
+.navbar{
+    height: 8rem;
+}
+
+#mi-carrusel{
+    width: 100%;
+    clear: both;
+}
