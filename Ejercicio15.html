@@ -12,14 +12,14 @@
     <title>Ejercicio 15</title>
 </head>
 
-<body >
+<body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex flex-column">
         <div class="container flex-sm-row">
             <a class="navbar-brand" href="#">
                 <h2>Carolina Zapata <small class="text-muted">Diseñadora de aplicaciones web</small></h2>
             </a>
-          
+
             <div class="" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
 
@@ -72,7 +72,7 @@
     </nav>
 
     <main>
-        <div class="container"> 
+        <div class="container">
             <div class="row mt-3 mb-3 border-top border-info bg-light" id="portafolio">
                 <div class="col d-flex flex-wrap justify-content-center">
                     <h1 class="display-5 col-12 p-3 text-center text-info">Portafolio</h1>
@@ -128,17 +128,19 @@
 
     <div class="container">
         <div class="row mt-4 mb-4 justify-content-center bg-light">
-            
+
             <div class="col-7">
                 <h3 class="text-info text-center">CONTACTO</h3>
                 <form action="">
                     <div class="form-group d-sm-flex justify-content-between" id="nombreCorreo">
-                        <input type="text" class="form-control col-12 col-sm-5" placeholder="Nombre" name="nombre" id="nombre">
+                        <input type="text" class="form-control col-12 col-sm-5" placeholder="Nombre" name="nombre"
+                            id="nombre">
 
-                        <input type="email" class="form-control col-12 col-sm-5 mt-2 mt-sm-0" placeholder="correo" name="correo" id="correo">
+                        <input type="email" class="form-control col-12 col-sm-5 mt-2 mt-sm-0" placeholder="correo"
+                            name="correo" id="correo">
 
                     </div>
-                    
+
 
                     <div class="form-group">
                         <textarea name="mensaje" id="mensaje" class="form-control"></textarea>
@@ -147,7 +149,7 @@
                     <div class="text-center">
                         <button class="btn btn-info " type="submit">Enviar</button>
                     </div>
-                    
+
                 </form>
             </div>
         </div>
@@ -155,13 +157,13 @@
 
     <footer class="bg-light text-center">
         <!-- Copyright -->
-        <div class="text-center p-3" >
-          © 2020 Copyright:
-          <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        <div class="text-center p-3">
+            © 2020 Copyright:
+            <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
         </div>
         <!-- Copyright -->
-      </footer>
-    
+    </footer>
+
 
 
 
@@ -174,6 +176,24 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+
+    <script>
+
+        $(function () {
+
+            $('.galeria .contenedor-imagen').on('click', function () {
+
+                $('#modal').modal;
+
+                var ruta_imagen = ($(this).find('img').attr('src'));
+
+                $('#imagen-modal').attr('src', ruta_imagen);
+
+            });
+
+        })
+
+    </script>
 
 </body>
 
